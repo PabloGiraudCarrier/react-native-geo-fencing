@@ -12,7 +12,7 @@ module.exports = {
           if (isWithinCoverage) {
             resolve(true);
           } else {
-            reject();
+            resolve(false);
           }
         }
       )
